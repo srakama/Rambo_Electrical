@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f9fafb;
+  --foreground: #1f2937;
+  --primary-color: #1e40af;
+  --secondary-color: #eab308;
+  --accent-color: #16a34a;
+  --danger-color: #dc2626;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Custom component styles */
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1;
+}
+
+.btn-secondary {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-3 px-6 rounded-md transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1;
+}
+
+.container-padding {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+/* Hero section gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 55%, #3b82f6 100%);
+}
+
+/* Card hover effects */
+.service-card {
+  @apply bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-all duration-300 border-b-4 border-transparent hover:-translate-y-2;
+}
+
+.service-card.blue:hover {
+  @apply border-blue-500;
+}
+
+.service-card.green:hover {
+  @apply border-green-500;
+}
+
+.service-card.yellow:hover {
+  @apply border-yellow-500;
+}
+
+.service-card.red:hover {
+  @apply border-red-500;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Animated elements */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Floating animation */
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Gradient text animation */
+.animate-gradient {
+  background: linear-gradient(-45deg, #1e40af, #3b82f6, #06b6d4, #10b981);
+  background-size: 400% 400%;
+  animation: gradient 4s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Shimmer effect */
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Custom section styling */
+.section-heading {
+  @apply text-3xl font-bold text-gray-900 mb-2 relative inline-block;
+}
+
+.section-heading::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-1/2 h-1 bg-blue-500 rounded;
+}
+
+/* Image styling */
+.img-hover-zoom {
+  @apply overflow-hidden rounded-lg;
+}
+
+.img-hover-zoom img {
+  @apply transition-transform duration-500 ease-in-out;
+}
+
+.img-hover-zoom:hover img {
+  @apply transform scale-110;
+}
+
+/* Glass card effect */
+.glass-card {
+  @apply bg-white/20 backdrop-blur-md rounded-xl border border-white/30 shadow-lg;
+}
+
+/* Gradient border */
+.gradient-border {
+  position: relative;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0.75rem;
+  padding: 2px;
+  background: linear-gradient(45deg, #3b82f6, #10b981, #f59e0b, #ef4444);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Neon glow effect */
+.neon-glow {
+  box-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 15px #3b82f6;
+}
+
+/* Neumorphic card */
+.neumorphic-card {
+  @apply bg-gray-100 rounded-xl;
+  box-shadow: 8px 8px 16px #d1d1d1, -8px -8px 16px #ffffff;
+}

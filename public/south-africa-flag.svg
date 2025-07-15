@@ -1,0 +1,47 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <style>
+      .red { fill: #DE3831; }
+      .blue { fill: #002395; }
+      .green { fill: #007A4D; }
+      .black { fill: #000000; }
+      .gold { fill: #FFB612; }
+      .white { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="200" class="white"/>
+
+  <!-- Horizontal stripes -->
+  <!-- Top red stripe -->
+  <rect width="300" height="33.33" class="red"/>
+  <!-- Top blue stripe -->
+  <rect y="33.33" width="300" height="33.33" class="blue"/>
+  <!-- Middle white stripe -->
+  <rect y="66.67" width="300" height="33.33" class="white"/>
+  <!-- Bottom white stripe -->
+  <rect y="100" width="300" height="33.33" class="white"/>
+  <!-- Bottom blue stripe -->
+  <rect y="133.33" width="300" height="33.33" class="blue"/>
+  <!-- Bottom red stripe -->
+  <rect y="166.67" width="300" height="33.33" class="red"/>
+
+  <!-- Green Y-shaped band -->
+  <!-- Left triangle -->
+  <polygon points="0,0 100,100 0,200" class="green"/>
+  <!-- Upper diagonal -->
+  <polygon points="100,100 300,33.33 300,0 0,0" class="green"/>
+  <!-- Lower diagonal -->
+  <polygon points="100,100 300,166.67 300,200 0,200" class="green"/>
+
+  <!-- Black triangle (inner) -->
+  <polygon points="0,33.33 66.67,100 0,166.67" class="black"/>
+
+  <!-- Gold triangle (innermost) -->
+  <polygon points="0,50 50,100 0,150" class="gold"/>
+
+  <!-- White borders for Y-shape -->
+  <polygon points="100,100 300,40 300,33.33 100,100" class="white"/>
+  <polygon points="100,100 300,160 300,166.67 100,100" class="white"/>
+</svg>

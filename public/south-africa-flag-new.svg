@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Official South African Flag -->
+
+  <!-- Background stripes -->
+  <!-- Red stripe (top) -->
+  <rect x="0" y="0" width="300" height="33.33" fill="#DE3831"/>
+  <!-- Blue stripe -->
+  <rect x="0" y="33.33" width="300" height="33.33" fill="#002395"/>
+  <!-- White stripe -->
+  <rect x="0" y="66.67" width="300" height="33.33" fill="#FFFFFF"/>
+  <!-- White stripe -->
+  <rect x="0" y="100" width="300" height="33.33" fill="#FFFFFF"/>
+  <!-- Blue stripe -->
+  <rect x="0" y="133.33" width="300" height="33.33" fill="#002395"/>
+  <!-- Red stripe (bottom) -->
+  <rect x="0" y="166.67" width="300" height="33.33" fill="#DE3831"/>
+
+  <!-- Green Y-shaped pall -->
+  <!-- Left triangle -->
+  <polygon points="0,0 100,100 0,200" fill="#007A4D"/>
+  <!-- Upper arm -->
+  <polygon points="100,100 300,33.33 300,0 0,0" fill="#007A4D"/>
+  <!-- Lower arm -->
+  <polygon points="100,100 300,166.67 300,200 0,200" fill="#007A4D"/>
+
+  <!-- White fimbriation (borders) -->
+  <polygon points="100,100 300,40 300,33.33 100,100" fill="#FFFFFF"/>
+  <polygon points="100,100 300,160 300,166.67 100,100" fill="#FFFFFF"/>
+
+  <!-- Black triangle -->
+  <polygon points="0,33.33 66.67,100 0,166.67" fill="#000000"/>
+
+  <!-- Gold triangle -->
+  <polygon points="0,50 50,100 0,150" fill="#FFB612"/>
+</svg>
