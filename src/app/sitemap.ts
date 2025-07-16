@@ -1,7 +1,9 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://ramboelectrician.co.za';
+  const baseUrl = 'https://rambo-electrician.netlify.app'; // Update this with your actual Netlify domain
   
   return [
     {

@@ -1,0 +1,37 @@
+TRUEHOST UPLOAD CHECKLIST
+=========================
+
+Before Upload:
+□ TrueHost hosting account is active
+□ Domain is pointed to TrueHost nameservers
+□ FTP/cPanel credentials are available
+
+Upload Process:
+□ Login to TrueHost cPanel
+□ Navigate to File Manager
+□ Open public_html folder
+□ Upload ALL files from this package
+□ Verify index.html is in public_html root
+□ Check that _next folder uploaded completely
+□ Verify all .svg image files uploaded
+
+After Upload:
+□ Visit your website URL
+□ Test all pages: /, /about, /services, /contact
+□ Test WhatsApp button functionality
+□ Test phone number links
+□ Check website loads properly on mobile
+□ Verify SSL certificate is working (https://)
+
+SEO Setup:
+□ Submit sitemap.xml to Google Search Console
+□ Verify robots.txt is accessible
+□ Check website in Google PageSpeed Insights
+
+Troubleshooting:
+□ If 404 errors: Check file permissions (644 for files, 755 for folders)
+□ If images don't load: Verify all .svg files uploaded
+□ If styling broken: Check _next folder uploaded completely
+□ If WhatsApp doesn't work: Test on mobile device
+
+Contact for Support: srakama@gmail.com

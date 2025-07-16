@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
@@ -7,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/'],
     },
-    sitemap: 'https://ramboelectrician.co.za/sitemap.xml',
+    sitemap: 'https://rambo-electrician.netlify.app/sitemap.xml', // Update this with your actual Netlify domain
   };
 }

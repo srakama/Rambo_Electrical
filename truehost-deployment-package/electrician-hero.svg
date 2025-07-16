@@ -1,0 +1,7 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1e40af"/>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle">Electrician in Blue Uniform</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="36" fill="white" text-anchor="middle">Working with Solar Panels</text>
+  <rect x="100" y="400" width="600" height="150" fill="#eab308" rx="10"/>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="24" fill="#1e40af" text-anchor="middle">Safety Vest</text>
+</svg>

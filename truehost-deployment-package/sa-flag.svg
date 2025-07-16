@@ -1,0 +1,39 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Official South African Flag -->
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="#FFFFFF"/>
+  
+  <!-- Red stripes (top and bottom) -->
+  <rect width="300" height="33.33" fill="#DE3831"/>
+  <rect y="166.67" width="300" height="33.33" fill="#DE3831"/>
+  
+  <!-- Blue stripes -->
+  <rect y="33.33" width="300" height="33.33" fill="#002395"/>
+  <rect y="133.33" width="300" height="33.33" fill="#002395"/>
+  
+  <!-- White stripes (middle) -->
+  <rect y="66.67" width="300" height="33.33" fill="#FFFFFF"/>
+  <rect y="100" width="300" height="33.33" fill="#FFFFFF"/>
+  
+  <!-- Green Y-shaped pall -->
+  <!-- Main green triangle on left -->
+  <polygon points="0,0 100,100 0,200" fill="#007A4D"/>
+  
+  <!-- Green bands extending to the right -->
+  <polygon points="100,100 300,33.33 300,0 0,0" fill="#007A4D"/>
+  <polygon points="100,100 300,166.67 300,200 0,200" fill="#007A4D"/>
+  
+  <!-- Black triangle (inner pall) -->
+  <polygon points="0,33.33 66.67,100 0,166.67" fill="#000000"/>
+  
+  <!-- Gold/Yellow triangle (innermost) -->
+  <polygon points="0,50 50,100 0,150" fill="#FFB612"/>
+  
+  <!-- White fimbriation (borders) -->
+  <polygon points="100,100 300,40 300,33.33 100,100" fill="#FFFFFF"/>
+  <polygon points="100,100 300,160 300,166.67 100,100" fill="#FFFFFF"/>
+  
+  <!-- Additional white borders for the Y-shape -->
+  <polygon points="0,33.33 66.67,100 0,166.67 0,40 60,100 0,160" fill="#FFFFFF"/>
+</svg>

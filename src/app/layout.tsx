@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_ZA',
-    url: 'https://ramboelectrician.co.za',
+    url: 'https://rambo-electrician.netlify.app', // Update this with your actual Netlify domain
     siteName: 'Rambo The Electrician',
     title: 'Professional Electrical & Solar Services in South Africa',
     description: 'Expert electrician services including circuit design, solar installations, repairs & maintenance. 24/7 emergency service across South Africa.',
@@ -73,10 +73,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <StructuredData />
-      </head>
       <body className="antialiased bg-gray-50">
+        <StructuredData />
         <Navbar />
         <main className="min-h-screen">
           {children}
